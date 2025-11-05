@@ -13,6 +13,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.css" />
 
+    <style>
+        /* Classy transparent Plans styling (glass, subtle, on-brand) */
+        .pricing-section { padding: 4rem 1.5rem; }
+        .pricing-section .ourPlans { text-align: center; margin: 0 0 2rem 0; font-weight: 700; }
+        .pricing-section .card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; width: min(1100px, 95%); margin: 0 auto; }
+        .pricing-section .card { border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; background: rgba(255,255,255,0.04); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease; box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
+        .pricing-section .card:hover { transform: translateY(-6px); box-shadow: 0 14px 28px rgba(0,0,0,0.22); border-color: rgba(255,255,255,0.3); background: rgba(255,255,255,0.05); }
+        .pricing-section .card-front, .pricing-section .card-back { border-radius: 16px; background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)); }
+        .pricing-section .card-front h2, .pricing-section .card-back h2 { margin-top: 0.2rem; }
+        .pricing-section .card-front ul, .pricing-section .card-back p { color: rgba(255,255,255,0.9); }
+        .pricing-section .BuyNow { background: transparent; color: inherit; border: 1px solid rgba(255,255,255,0.28); padding: 0.55rem 1rem; border-radius: 10px; font-weight: 600; transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease; }
+        .pricing-section .BuyNow:hover { background: #ffffff; color: #0a0c14; border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,0.18); }
+    </style>
+
 </head>
 <body>
         <!-- Header section code -->
